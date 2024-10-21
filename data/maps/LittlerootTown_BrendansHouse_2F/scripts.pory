@@ -1,0 +1,692 @@
+mapscripts LittlerootTown_BrendansHouse_2F_MapScripts { }
+
+script BrendandsHouse_2F_Squirtle {
+    lockall
+    showmonpic(SPECIES_SQUIRTLE, 10,3)
+    msgbox("Do you want to choose Squirtle?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_SQUIRTLE, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Squirtle")
+        removeobject(1)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Charmander {
+    lockall
+    showmonpic(SPECIES_CHARMANDER, 10,3)
+    msgbox("Do you want to choose Charmander?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_CHARMANDER, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Charmander")
+        removeobject(1)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Bulbasaur {
+    lockall
+    showmonpic(SPECIES_BULBASAUR, 10,3)
+    msgbox("Do you want to choose Bulbasaur?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_BULBASAUR, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Bulbasaur")
+        removeobject(1)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Totodile {
+    lockall
+    showmonpic(SPECIES_TOTODILE, 10,3)
+    msgbox("Do you want to choose Totodile?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_TOTODILE, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Totodile")
+        removeobject(1)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Cyndaquil {
+    lockall
+    showmonpic(SPECIES_CYNDAQUIL, 10,3)
+    msgbox("Do you want to choose Cyndaquil?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_CYNDAQUIL, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Cyndaquil")
+        removeobject(1)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Chikorita {
+    lockall
+    showmonpic(SPECIES_CHIKORITA, 10,3)
+    msgbox("Do you want to choose Chikorita?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_CHIKORITA, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Chikorita")
+        removeobject(1)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Mudkip {
+    lockall
+    showmonpic(SPECIES_MUDKIP, 10,3)
+    msgbox("Do you want to choose Mudkip?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_MUDKIP, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Mudkip")
+        removeobject(1)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Torchic {
+    lockall
+    showmonpic(SPECIES_TORCHIC, 10,3)
+    msgbox("Do you want to choose Torchic?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_TORCHIC, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Torchic")
+        removeobject(2)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Treecko {
+    lockall
+    showmonpic(SPECIES_TREECKO, 10,3)
+    msgbox("Do you want to choose Treecko?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_TREECKO, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Treecko")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Piplup {
+    lockall
+    showmonpic(SPECIES_PIPLUP, 10,3)
+    msgbox("Do you want to choose Piplup?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_PIPLUP, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Piplup")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Chimchar {
+    lockall
+    showmonpic(SPECIES_CHIMCHAR, 10,3)
+    msgbox("Do you want to choose Chimchar?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_CHIMCHAR, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Chimchar")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Turtwig {
+    lockall
+    showmonpic(SPECIES_TURTWIG, 10,3)
+    msgbox("Do you want to choose Turtwig?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_TURTWIG, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Turtwig")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Oshawott {
+    lockall
+    showmonpic(SPECIES_OSHAWOTT, 10,3)
+    msgbox("Do you want to choose Oshawott?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_OSHAWOTT, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Oshawott")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Tepig {
+    lockall
+    showmonpic(SPECIES_TEPIG, 10,3)
+    msgbox("Do you want to choose Tepig?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_TEPIG, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Tepig")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Snivy {
+    lockall
+    showmonpic(SPECIES_SNIVY, 10,3)
+    msgbox("Do you want to choose Snivy?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_SNIVY, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Snivy")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Froakie {
+    lockall
+    showmonpic(SPECIES_FROAKIE, 10,3)
+    msgbox("Do you want to choose Froakie?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_FROAKIE, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Froakie")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Fennekin {
+    lockall
+    showmonpic(SPECIES_FENNEKIN, 10,3)
+    msgbox("Do you want to choose Fennekin?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_FENNEKIN, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Fennekin")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Chespin {
+    lockall
+    showmonpic(SPECIES_CHESPIN, 10,3)
+    msgbox("Do you want to choose Chespin?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_CHESPIN, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Chespin")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Popplio {
+    lockall
+    showmonpic(SPECIES_POPPLIO, 10,3)
+    msgbox("Do you want to choose Popplio?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_POPPLIO, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Popplio")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Litten {
+    lockall
+    showmonpic(SPECIES_LITTEN, 10,3)
+    msgbox("Do you want to choose Litten?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_LITTEN, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Litten")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Rowlet {
+    lockall
+    showmonpic(SPECIES_ROWLET, 10,3)
+    msgbox("Do you want to choose Rowlet?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_ROWLET, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Rowlet")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Sobble {
+    lockall
+    showmonpic(SPECIES_SOBBLE, 10,3)
+    msgbox("Do you want to choose Sobble?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_SOBBLE, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Sobble")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Scorbunny {
+    lockall
+    showmonpic(SPECIES_SCORBUNNY, 10,3)
+    msgbox("Do you want to choose Scorbunny?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_SCORBUNNY, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Scorbunny")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Grookey {
+    lockall
+    showmonpic(SPECIES_GROOKEY, 10,3)
+    msgbox("Do you want to choose Grookey?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_GROOKEY, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Grookey")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Quaxly {
+    lockall
+    showmonpic(SPECIES_QUAXLY, 10,3)
+    msgbox("Do you want to choose Quaxly?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_QUAXLY, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Quaxly")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Fuecoco {
+    lockall
+    showmonpic(SPECIES_FUECOCO, 10,3)
+    msgbox("Do you want to choose Fuecoc?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_FUECOCO, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Fuecoco")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Sprigatito {
+    lockall
+    showmonpic(SPECIES_SPRIGATITO, 10,3)
+    msgbox("Do you want to choose Sprigatito?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_SPRIGATITO, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Sprigatito")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Pikachu {
+    lockall
+    showmonpic(SPECIES_PIKACHU, 10,3)
+    msgbox("Do you want to choose Pikachu?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_PIKACHU, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved PIKACHU")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script BrendandsHouse_2F_Eevee {
+    lockall
+    showmonpic(SPECIES_EEVEE, 10,3)
+    msgbox("Do you want to choose Eevee?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_EEVEE, 5, ITEM_ORAN_BERRY)
+        setflag(FLAG_SYS_POKEMON_GET)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("Recieved Eevee")
+        removeobject(3)
+        setflag(FLAG_UNUSED_0x020)
+        call(NicknamePartyMon)
+        warp(MAP_LITTLEROOT_TOWN, 10, 10)
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script NicknamePartyMon{
+ 
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+}
+
+script NicknameBoxMon{
+ 
+    msgbox("Give it a nickname?", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_NameReceivedBoxMon)
+    }
+    call(Common_EventScript_TransferredToPC)
+}
+
+text NewProfessor_NotChosen{
+    "You did not choose the Pokemon"
+}
